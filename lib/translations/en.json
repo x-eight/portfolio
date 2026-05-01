@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "github": "GitHub",
+    "aiAssistant": "AI Assistant"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Saul Quispe",
+    "title": "Full Stack Developer",
+    "description": "I build accessible, pixel-perfect digital experiences for the web. Passionate about creating elegant solutions to complex problems with clean, maintainable code.",
+    "cta": "View My Work"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Technologies I work with",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "devops": "DevOps & Cloud",
+    "ai_specialization": "Artificial Intelligence",
+    "business_tools": "Business Tools"
+  },
+  "github": {
+    "title": "GitHub Activity",
+    "contributions": "Contributions",
+    "repositories": "Repositories",
+    "followers": "Followers",
+    "stars": "Stars"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "My professional journey",
+    "present": "Present",
+    "items": {
+      "freelance_ai": {
+        "description": "Developing AI assistants using LangChain, GenKit, and multimodal models (Gemini, OpenAI). Orchestrating complex workflows for automated video/image generation and voice synthesis using ElevenLabs and Deepgram."
+      },
+      "equip": {
+        "description": "Developed chatbots using GraphQL to enhance user interaction efficiency. Automated complex reporting systems, saving over 10 hours of manual work weekly."
+      },
+      "drawify": {
+        "description": "Migrated a monolithic API to a microservices architecture using GraphQL. Optimized search performance by 60% through ElasticSearch implementation and integrated Stripe for secure payments."
+      },
+      "eatos": {
+        "description": "Designed and deployed REST APIs and automated CI/CD pipelines using AWS CodePipeline. Configured high-availability infrastructure on EC2 and ECS with CloudWatch monitoring."
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Some things I've built",
+    "viewDemo": "Live Demo",
+    "viewCode": "View Code"
+  },
+  "aiAssistant": {
+    "title": "AI Assistant",
+    "subtitle": "Chat with AI about my portfolio",
+    "placeholder": "Ask me anything...",
+    "apiKeyLabel": "API Key",
+    "apiKeyPlaceholder": "Enter your API key",
+    "selectProvider": "Select AI Provider",
+    "gemini": "Gemini",
+    "openai": "OpenAI",
+    "send": "Send",
+    "close": "Close",
+    "keyRequired": "API key is required to use the AI Assistant"
+  },
+  "footer": {
+    "builtWith": "Built with",
+    "by": "by"
+  }
+}

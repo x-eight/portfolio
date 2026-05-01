@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "profile": "Perfil",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "github": "GitHub",
+    "aiAssistant": "Asistente IA"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Saul Quispe",
+    "title": "Desarrollador Full Stack",
+    "description": "Construyo experiencias digitales accesibles y perfectas para la web. Apasionado por crear soluciones elegantes a problemas complejos con código limpio y mantenible.",
+    "cta": "Ver Mi Trabajo"
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "subtitle": "Tecnologías con las que trabajo",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "devops": "DevOps & Cloud",
+    "ai_specialization": "Inteligencia Artificial",
+    "business_tools": "Herramientas de Negocio"
+  },
+  "github": {
+    "title": "Actividad en GitHub",
+    "contributions": "Contribuciones",
+    "repositories": "Repositorios",
+    "followers": "Seguidores",
+    "stars": "Estrellas"
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "subtitle": "Mi trayectoria profesional",
+    "present": "Presente",
+    "items": {
+      "freelance_ai": {
+        "description": "Desarrollo de asistentes de IA utilizando LangChain, GenKit y modelos multimodales (Gemini, OpenAI). Orquestación de flujos de trabajo complejos para la generación automatizada de video/imagen y síntesis de voz usando ElevenLabs y Deepgram."
+      },
+      "equip": {
+        "description": "Desarrollo de chatbots utilizando GraphQL para mejorar la eficiencia de la interacción del usuario. Automatización de sistemas de informes complejos, ahorrando más de 10 horas de trabajo manual semanal."
+      },
+      "drawify": {
+        "description": "Migración de una API monolítica a una arquitectura de microservicios utilizando GraphQL. Optimización del rendimiento de búsqueda en un 60% mediante la implementación de ElasticSearch e integración de Stripe para pagos seguros."
+      },
+      "eatos": {
+        "description": "Diseño y despliegue de APIs REST y automatización de pipelines CI/CD usando AWS CodePipeline. Configuración de infraestructura de alta disponibilidad en EC2 y ECS con monitoreo CloudWatch."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Algunas cosas que he construido",
+    "viewDemo": "Ver Demo",
+    "viewCode": "Ver Código"
+  },
+  "aiAssistant": {
+    "title": "Asistente IA",
+    "subtitle": "Chatea con IA sobre mi portafolio",
+    "placeholder": "Pregúntame lo que quieras...",
+    "apiKeyLabel": "Clave API",
+    "apiKeyPlaceholder": "Ingresa tu clave API",
+    "selectProvider": "Seleccionar Proveedor IA",
+    "gemini": "Gemini",
+    "openai": "OpenAI",
+    "send": "Enviar",
+    "close": "Cerrar",
+    "keyRequired": "Se requiere una clave API para usar el Asistente IA"
+  },
+  "footer": {
+    "builtWith": "Construido con",
+    "and": "y",
+    "by": "por"
+  }
+}
