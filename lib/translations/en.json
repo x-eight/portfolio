@@ -54,7 +54,27 @@
     "title": "Featured Projects",
     "subtitle": "Some things I've built",
     "viewDemo": "Live Demo",
-    "viewCode": "View Code"
+    "viewCode": "View Code",
+    "items": {
+      "vibe_coding": {
+        "description": "Interactive AI-assisted development platform allowing rapid prototyping via natural language, optimizing creative workflow and real-time code generation."
+      },
+      "multimodal_rag": {
+        "description": "Advanced Retrieval-Augmented Generation system capable of processing and querying information across multiple modalities (text, images, and documents) using state-of-the-art LLMs."
+      },
+      "smart_video": {
+        "description": "Intelligent AI-based tool for automatic video reframing, detecting the main subject to dynamically adapt horizontal formats to vertical (9:16)."
+      },
+      "next_inngest": {
+        "description": "Professional template for managing complex workflows and background jobs using Inngest within the Next.js ecosystem."
+      },
+      "webcodec_video": {
+        "description": "High-performance video generation engine utilizing the native WebCodecs API to render and export video directly from the browser."
+      },
+      "pdf_extractor": {
+        "description": "High-precision data extractor that converts complex PDF documents into clean JSON structures, ideal for feeding data pipelines or AI models."
+      }
+    }
   },
   "aiAssistant": {
     "title": "AI Assistant",

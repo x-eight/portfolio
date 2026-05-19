@@ -8,45 +8,48 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
+    translationKey: "vibe_coding",
+    title: "Vibe Coding Platform",
+    technologies: ["Next.js", "Vercel AI SDK", "Tailwind CSS", "OpenAI"],
+    demoUrl: null,
+    repoUrl: "https://github.com/x-eight/vibe-coding-platform",
+    featured: true,
+  },
+  {
+    translationKey: "multimodal_rag",
     title: "Multimodal RAG System",
-    description:
-      "Sistema avanzado de Retrieval-Augmented Generation capaz de procesar y consultar información a través de múltiples modalidades (texto, imágenes y documentos) utilizando LLMs de última generación.",
     technologies: ["Python", "OpenAI", "Vector Databases", "LangChain"],
-    demoUrl: null, // Puedes añadirlo si tienes un Space en HuggingFace o similar
+    demoUrl: null,
     repoUrl: "https://github.com/x-eight/RAG-multimodal",
     featured: true,
   },
   {
+    translationKey: "smart_video",
     title: "Smart Video Reframe",
-    description:
-      "Herramienta inteligente basada en IA para el reencuadre automático de video, detectando el sujeto principal para adaptar formatos horizontales a verticales (9:16) de forma dinámica.",
     technologies: ["Python", "Computer Vision", "MediaPipe", "MoviePy"],
     demoUrl: null,
     repoUrl: "https://github.com/x-eight/smart-video-reframe",
     featured: true,
   },
   {
+    translationKey: "next_inngest",
     title: "Next.js Inngest Orchestrator",
-    description:
-      "Plantilla profesional para la gestión de flujos de trabajo complejos y tareas en segundo plano (background jobs) utilizando Inngest dentro del ecosistema Next.js.",
     technologies: ["Next.js", "Inngest", "TypeScript", "Serverless"],
     demoUrl: "https://next-inngest.vercel.app/",
     repoUrl: "https://github.com/x-eight/next-inngest",
     featured: true,
   },
   {
+    translationKey: "webcodec_video",
     title: "WebCodec Video Generator",
-    description:
-      "Motor de generación de video de alto rendimiento que utiliza la API nativa WebCodecs para renderizar y exportar video directamente desde el navegador.",
     technologies: ["JavaScript", "WebCodecs API", "Canvas", "Web Workers"],
     demoUrl: null,
     repoUrl: "https://github.com/x-eight/webcodec-video-generator",
     featured: false,
   },
   {
+    translationKey: "pdf_extractor",
     title: "PDF to JSON Extractor",
-    description:
-      "Extractor de datos de alta precisión que convierte documentos PDF complejos en estructuras JSON limpias, ideal para alimentar pipelines de datos o modelos de IA.",
     technologies: ["Python", "PyMuPDF", "Data Engineering", "JSON"],
     demoUrl: null,
     repoUrl: "https://github.com/x-eight/pdf-to-json",
@@ -114,7 +117,7 @@ export function ProjectsSection() {
                   {project.title}
                 </h3>
                 <p className="mb-4 flex-1 text-sm text-muted-foreground">
-                  {project.description}
+                  {t.projects.items[project.translationKey as keyof typeof t.projects.items].description}
                 </p>
 
                 <div className="flex flex-wrap gap-2">
